@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Thu Jun 20 15:03:31 BST 2019
+1.base=C\:\\Users\\Skint_94\\StudioProjects\\Volume Control1\\app\\build\\intermediates\\merged_assets\\release\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\Skint_94\\StudioProjects\\Volume Control1\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+1.path=RobotoThin.ttf

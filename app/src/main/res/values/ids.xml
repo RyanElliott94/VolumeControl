@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="volText"/>
+    <item type="id" name="alarm"/>
+    <item type="id" name="textView2"/>
+    <item type="id" name="alarm2"/>
+    <item type="id" name="chooseText"/>
+    <item type="id" name="mainLayout"/>
+    <item type="id" name="chooseList"/>
+    <item type="id" name="Ad"/>
+    <item type="id" name="title"/>
+    <item type="id" name="music2"/>
+    <item type="id" name="music"/>
+    <item type="id" name="ring2"/>
+    <item type="id" name="ring"/>
+    <item type="id" name="system2"/>
+    <item type="id" name="system"/>
+    <item type="id" name="voice2"/>
+    <item type="id" name="voice"/>
+    <item type="id" name="exit"/>
+</resources>

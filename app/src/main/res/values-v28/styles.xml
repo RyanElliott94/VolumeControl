@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme" parent="@style/Platform.MaterialComponents.Light">
+        <item name="android:windowLayoutInDisplayCutoutMode" />
+        <item name="android:colorControlActivated">#1a237e</item>
+        <item name="android:colorControlNormal">#00b0ff</item>
+    </style>
+</resources>

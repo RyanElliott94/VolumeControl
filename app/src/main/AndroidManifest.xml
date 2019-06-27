@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.simplistic.anothervolumecontrol" android:versionCode="3" android:versionName="2.2">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <application android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7041676438054720~5326191699"/>
+
+        <activity android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.simplistic.anothervolumecontrol.AlarmVolume"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.simplistic.anothervolumecontrol.SystemVolume"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.simplistic.anothervolumecontrol.VoiceVolume"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.simplistic.anothervolumecontrol.RingVolume"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.simplistic.anothervolumecontrol.MusicVolume"
+            android:screenOrientation="portrait"/>
+
+    </application>
+</manifest>

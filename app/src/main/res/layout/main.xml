@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainLayout"
+    android:background="#fff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardElevation="@dimen/cardview_default_elevation"
+        card_view:contentPadding="5dp"
+        card_view:cardBackgroundColor="@color/cardview_light_background"
+        android:id="@+id/card"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/adView">
+
+        <ListView
+            android:id="@id/chooseList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-7041676438054720/8279658096" />
+
+    <!--MAIN ID: ca-app-pub-7041676438054720/8279658096-->
+
+    <!-- TEST ID: ca-app-pub-3940256099942544/6300978111-->
+</RelativeLayout>
